@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Jet-Brains Mono";
+  src: url("../fonts/JetBrainsMonoNL-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jet-Brains Mono";
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 18px;
+  align-items: center;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+}
+
+/* CSS básico para formatar a tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+a.botao-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Jet-Brains Mono";
+  src: url("../fonts/JetBrainsMonoNL-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+label {
+  color: white;
+  font-size: 0.6rem;
+  font-family: "Jet-Brains Mono", sans-serif;
+}
+
+input {
+  margin-bottom: 25px;
+  height: 20px;
+  width: 162px;
+  position: relative;
+  justify-content: right;
+}
+
+::placeholder {
+  align-content: center;
+  text-align: left;
+}
+
+.container {
+  background-color: black;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 18px;
+  align-items: center;
+ }
+
+.calc {
+  margin-top: 10px;
+ }
+
+#btnCalc {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  margin-left: px;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
